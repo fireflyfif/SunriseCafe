@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBackground">#cc9858</color>
+    <color name="aboutTextBackground">#40FFFFFF</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="contactInfo">#CCFFFFFF</color>
+    <color name="divider">#33FFFFFF</color>
+    <color name="buttons">#56cc73</color>
+    <color name="buttonOrder">#cc4138</color>
+    <color name="infoCafe_background">#265e3434</color>
+
+</resources>

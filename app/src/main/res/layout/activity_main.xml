@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.sunrisecafe.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/sunrise_cafe"
+                    style="@style/sunriseCafe"
+                    android:src="@drawable/sunrise_cafe" />
+
+                <ImageView
+                    android:id="@+id/title"
+                    style="@style/title"
+                    android:src="@drawable/title_1" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/social_media"
+                style="@style/social_media">
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    style="@style/social_media_icons"
+                    android:src="@drawable/icons_facebook"
+                    android:tag="https://www.facebook.com/"
+                    android:onClick="openBrowser"/>
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    style="@style/social_media_icons"
+                    android:tag="https://twitter.com/?lang=en"
+                    android:onClick="openBrowser"
+                    android:src="@drawable/icons_twitter" />
+
+                <ImageView
+                    android:id="@+id/instagram"
+                    style="@style/social_media_icons"
+                    android:tag="https://www.instagram.com/"
+                    android:onClick="openBrowser"
+                    android:src="@drawable/icons_instagram" />
+
+                <ImageView
+                    android:id="@+id/google"
+                    android:tag="https://plus.google.com/"
+                    android:onClick="openBrowser"
+                    style="@style/social_media_icons"
+                    android:src="@drawable/icons_google" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/divider"/>
+
+            <TextView
+                style="@style/scroll_down"
+                android:text="@string/scroll_down"/>
+
+            <TextView
+                android:id="@+id/about_text"
+                style="@style/about_text"
+                android:text="@string/about_text" />
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                style="@style/rating_bar" />
+
+            <LinearLayout
+                android:id="@+id/info_cafe"
+                style="@style/info_cafe">
+
+                <TextView
+                    style="@style/contacts"
+                    android:text="@string/contacts" />
+
+                <TextView
+                    style="@style/contact_info"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:text="@string/address" />
+
+                <TextView
+                    style="@style/contact_info"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:text="@string/telephone" />
+
+                <TextView
+                    style="@style/contact_info"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:text="@string/email" />
+
+                <TextView
+                    style="@style/contact_info"
+                    android:drawableLeft="@drawable/ic_workinghours"
+                    android:text="@string/working_hours" />
+
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/quick_order"
+                android:text="@string/choose_coffee"/>
+
+            <HorizontalScrollView
+                android:id="@+id/gallery"
+                style="@style/horizontalScrollView">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        style="@style/gallery_image"
+                        android:src="@drawable/coffee_gallery_1" />
+
+                    <ImageView
+                        style="@style/gallery_image"
+                        android:src="@drawable/coffee_gallery_2" />
+
+                    <ImageView
+                        style="@style/gallery_image"
+                        android:src="@drawable/coffee_gallery_3" />
+
+                    <ImageView
+                        style="@style/gallery_image"
+                        android:src="@drawable/coffee_gallery_4" />
+
+                    <ImageView
+                        style="@style/gallery_image"
+                        android:src="@drawable/coffee_gallery_5" />
+
+                    <ImageView
+                        style="@style/gallery_image"
+                        android:src="@drawable/coffee_gallery_6" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <View
+                style="@style/divider"/>
+
+
+            <TextView
+                style="@style/quick_order"
+                android:text="@string/quick_order" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/button_decr"
+                    android:onClick="decrement"
+                    android:text="@string/decrement" />
+
+                <TextView
+                    android:id="@+id/quantity_text_view"
+                    style="@style/quantity_text"
+                    android:text="@string/quantity_text_view" />
+
+                <Button
+                    style="@style/button_incr"
+                    android:onClick="increment"
+                    android:text="@string/increment" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/price_text_view"
+                style="@style/price_text"
+                android:text="@string/price_text_view" />
+
+            <Button
+                style="@style/button_order"
+                android:onClick="submitOrder"
+                android:text="@string/order" />
+
+            <View
+                style="@style/divider"/>
+
+            <TextView
+                style="@style/quick_order"
+                android:text="@string/thank_you" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

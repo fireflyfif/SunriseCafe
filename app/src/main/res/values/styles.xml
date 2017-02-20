@@ -1,0 +1,202 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Scroll View -->
+    <style name="scrollView" parent="AppTheme">
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Sunrise Cafe -->
+    <style name="sunriseCafe" parent="AppTheme">
+        <item name="android:paddingTop">@dimen/sunriseCafe_paddingTop</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:paddingBottom">@dimen/sunriseCafe_paddingBottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Title -->
+    <style name="title" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <!-- Social Media -->
+    <style name="social_media" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/socialMedia_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/socialMedia_marginBottom</item>
+        <item name="android:padding">@dimen/socialMedia_padding</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Social Media Icons -->
+    <style name="social_media_icons" parent="AppTheme">
+        <item name="android:layout_width">@dimen/socialMediaIcons_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Scroll Down -->
+    <style name="scroll_down" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/contactInfo</item>
+        <item name="android:padding">@dimen/contacts_padding</item>
+    </style>
+
+    <!-- About Text 16sp -->
+    <style name="about_text" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_margin">@dimen/aboutText_margin</item>
+        <item name="android:padding">@dimen/aboutText_padding</item>
+        <item name="android:background">@color/aboutTextBackground</item>
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/textSize_small</item>
+    </style>
+
+    <!-- Rating Bar -->
+    <style name="rating_bar" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/ratingBar_paddingBottom</item>
+        <item name="android:paddingTop">@dimen/ratingBar_paddingTop</item>
+    </style>
+
+    <!-- Info Cafe -->
+    <style name="info_cafe" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/infoCafe_background</item>
+        <item name="android:paddingBottom">@dimen/infoCafe_paddingBottom</item>
+        <item name="android:paddingTop">@dimen/infoCafe_paddingTop</item>
+    </style>
+
+    <!-- Contacts -->
+    <style name="contacts" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/contacts_padding</item>
+        <item name="android:textSize">@dimen/contacts_textSize</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Contact Info -->
+    <style name="contact_info" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/contactInfo_drawablePadding</item>
+        <item name="android:padding">@dimen/contactInfo_padding</item>
+        <item name="android:textColor">@color/contactInfo</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/textSize_small</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- HorizontalScrollView -->
+    <style name="horizontalScrollView" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:paddingBottom">@dimen/horizScroll_paddingBottom</item>
+        <item name="android:paddingTop">@dimen/horizScroll_paddingTop</item>
+    </style>
+
+    <!-- Gallery Images -->
+    <style name="gallery_image" parent="AppTheme">
+        <item name="android:layout_width">@dimen/image_width</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <!-- Quick Order + Thank You + Select Coffee -->
+    <style name="quick_order" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:textSize">@dimen/textSize_title</item>
+        <item name="android:padding">@dimen/quickOrder_padding</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Divider-->
+    <style name="divider" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_marginTop">@dimen/divider_marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/divider_marginBottom</item>
+    </style>
+
+    <!-- Button Decrement-->
+    <style name="button_decr" parent="AppTheme">
+        <item name="android:layout_width">@dimen/buttons_width</item>
+        <item name="android:layout_height">@dimen/buttons_height</item>
+        <item name="android:background">@color/buttons</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/buttons_margin</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+    <!-- Button Increment-->
+    <style name="button_incr" parent="AppTheme">
+        <item name="android:layout_width">@dimen/buttons_width</item>
+        <item name="android:layout_height">@dimen/buttons_height</item>
+        <item name="android:background">@color/buttons</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginRight">@dimen/buttons_margin</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+    <!-- Quantity-->
+    <style name="quantity_text" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/quantity_padding</item>
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:textSize">@dimen/textSize_title</item>
+    </style>
+
+    <!-- Price Text-->
+    <style name="price_text" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/quantity_padding</item>
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:textSize">@dimen/textSize_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Button Order-->
+    <style name="button_order" parent="AppTheme">
+        <item name="android:layout_width">@dimen/buttonOrder_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/buttonOrder</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginBottom">@dimen/buttonOrder_marginBottom</item>
+    </style>
+
+
+</resources>

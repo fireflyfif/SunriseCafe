@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sunrise Cafe</string>
+    <string name="about_text">We are a little charming Cafe located near the Mission Bay - one of Auckland’s favourite beachside destinations. The golden beach is safe for swimming year-round, and is nestled right next to The Promendade – Auckland’s only strip of beachside dining, drinking, and shopping outlets. With stunning views, fresh sea-salt air, and a friendly beach-side culture; it’s a real slice of paradise.
+
+\n\nMany people comment on what great staff we have - we all know how important it is to have people who are enthusiastic and passionate about their work - we love to meet new customers and enjoy a strong base or regulars who return daily for great coffee or catching up with friends while enjoying a meal or snack from our extensive menus.
+
+\n\nSunrise Cafe is the perfect destination to head to with friends and family to enjoy homemade cakes or just a simple cup of tea or coffee! We love watching the sunrise and we invite you to come along and join our community! </string>
+
+    <string name="scroll_down">Scroll down to Quick Order</string>
+    <string name="contacts">Contacts</string>
+    <string name="address">85 Tamaki Drive Mission Bay Auckland</string>
+    <string name="telephone">+64 500 800 10</string>
+    <string name="email">sunrise_cafe@gmail.com</string>
+    <string name="working_hours">Mon - Fri (7am - 4pm) \nWeekend (7am - 3pm)</string>
+    <string name="quick_order">Quick Order</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="quantity_text_view">0</string>
+    <string name="price_text_view">$0</string>
+    <string name="order">Order</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="choose_coffee">Select Your Coffee:</string>
+
+</resources>
