@@ -1,41 +1,41 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-
-
     <!-- Sunrise Cafe. -->
     <dimen name="sunriseCafe_paddingTop">130dp</dimen>
     <dimen name="sunriseCafe_paddingBottom">10dp</dimen>
 
-    <!-- Social Media -->
+    <!-- Social Media Layout -->
     <dimen name="socialMedia_marginTop">10dp</dimen>
     <dimen name="socialMedia_marginBottom">16dp</dimen>
     <dimen name="socialMedia_padding">5dp</dimen>
 
     <!-- Social Media Icons -->
     <dimen name="socialMediaIcons_width">0dp</dimen>
+    <dimen name="socialMediaIcons_height">40dp</dimen>
 
-    <!-- About Text 16sp -->
-    <dimen name="textSize_small">16sp</dimen>
-    <dimen name="aboutText_margin">16dp</dimen>
-    <dimen name="aboutText_padding">20dp</dimen>
+    <!-- Subheading TextViews 16sp -->
+    <dimen name="textSize_subheading">16sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+
+    <!-- Scroll Down Text -->
+    <dimen name="scrollText_drawablePadding">6dp</dimen>
+
+    <!-- Quantity TextView -->
+    <dimen name="quantityText_padding">25dp</dimen>
 
     <!-- Rating Bar -->
     <dimen name="ratingBar_paddingTop">20dp</dimen>
     <dimen name="ratingBar_paddingBottom">20dp</dimen>
 
-    <!-- Info Cafe -->
+    <!-- Info Cafe Layout-->
     <dimen name="infoCafe_paddingBottom">10dp</dimen>
     <dimen name="infoCafe_paddingTop">10dp</dimen>
 
-    <!-- Contacts -->
-    <dimen name="contacts_padding">10dp</dimen>
-    <dimen name="contacts_textSize">34sp</dimen>
+    <!-- Contacts Headline Text -->
+    <dimen name="contacts_textSize">24sp</dimen>
 
-    <!-- Contact Info -->
-    <dimen name="contactInfo_drawablePadding">10dp</dimen>
-    <dimen name="contactInfo_padding">16dp</dimen>
+    <!-- Contacts with Icons TextView -->
+    <dimen name="contactInfo_drawablePadding">20dp</dimen>
 
     <!-- HorizontalScrollView -->
     <dimen name="horizScroll_paddingBottom">20dp</dimen>
@@ -45,10 +45,6 @@
     <dimen name="image_width">200dp</dimen>
     <dimen name="image_height">200dp</dimen>
 
-    <!-- Quick Order -->
-    <dimen name="quickOrder_size">20sp</dimen>
-    <dimen name="quickOrder_padding">10dp</dimen>
-
     <!-- Divider-->
     <dimen name="divider_height">1dp</dimen>
     <dimen name="divider_marginTop">10dp</dimen>
@@ -57,13 +53,8 @@
     <!-- Buttons-->
     <dimen name="buttons_height">48dp</dimen>
     <dimen name="buttons_width">48dp</dimen>
-    <dimen name="buttons_margin">10dp</dimen>
+    <dimen name="buttons_margin">20dp</dimen>
     <dimen name="buttons_textSize">16sp</dimen>
-
-    <!-- Quantity + Price Text + Select Your Coffee-->
-    <dimen name="quantity_padding">16dp</dimen>
-    <dimen name="textSize_title">20sp</dimen>
-
 
     <!-- Button Order-->
     <dimen name="buttonOrder_width">88dp</dimen>
