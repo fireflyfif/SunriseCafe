@@ -11,7 +11,7 @@
     <string name="address">85 Tamaki Drive Mission Bay Auckland</string>
     <string name="telephone">+64 500 800 10</string>
     <string name="email">sunrise_cafe@gmail.com</string>
-    <string name="working_hours">Mon - Fri (7am - 4pm) \nWeekend (7am - 3pm)</string>
+    <string name="working_hours">\nMon - Fri (7am - 4pm) \nWeekend (7am - 3pm)</string>
     <string name="quick_order">Quick Order</string>
     <string name="decrement">-</string>
     <string name="increment">+</string>

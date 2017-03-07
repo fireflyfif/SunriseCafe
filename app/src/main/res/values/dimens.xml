@@ -12,7 +12,7 @@
     <dimen name="socialMediaIcons_width">0dp</dimen>
     <dimen name="socialMediaIcons_height">40dp</dimen>
 
-    <!-- Subheading TextViews 16sp -->
+    <!-- Subheading TextViews Style 16sp -->
     <dimen name="textSize_subheading">16sp</dimen>
     <dimen name="text_margin">16dp</dimen>
     <dimen name="text_padding">16dp</dimen>
@@ -36,6 +36,7 @@
 
     <!-- Contacts with Icons TextView -->
     <dimen name="contactInfo_drawablePadding">20dp</dimen>
+    <dimen name="contactInfo_margin">16dp</dimen>
 
     <!-- HorizontalScrollView -->
     <dimen name="horizScroll_paddingBottom">20dp</dimen>

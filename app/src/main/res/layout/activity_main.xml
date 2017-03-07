@@ -123,7 +123,7 @@
                     android:text="@string/email" />
 
                 <TextView
-                    style="@style/TextSubheading.Contacts"
+                    style="@style/TextSubheading.Contacts.Last"
                     android:drawableLeft="@drawable/ic_workinghours"
                     android:text="@string/working_hours" />
 
