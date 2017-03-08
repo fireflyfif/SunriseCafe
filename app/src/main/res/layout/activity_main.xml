@@ -8,7 +8,7 @@
     tools:context="com.example.android.sunrisecafe.MainActivity">
 
     <ScrollView
-        android:id="@+id/scrollView"
+        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorBackground"
@@ -82,8 +82,10 @@
 
             <!-- Scroll Down Text -->
             <TextView
+                android:id="@+id/scroll_down_text"
                 style="@style/TextSubheading.ScrollDown"
-                android:text="@string/scroll_down" />
+                android:text="@string/scroll_down"
+                android:onClick="scrollDown"/>
 
 
             <!-- About Text -->
@@ -179,6 +181,7 @@
 
             <!-- Quick Order-->
             <TextView
+                android:id="@+id/quick_order"
                 style="@style/TextSubheading.QuickOrder"
                 android:text="@string/quick_order" />
 
