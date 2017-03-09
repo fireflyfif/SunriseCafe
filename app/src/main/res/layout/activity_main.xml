@@ -85,7 +85,7 @@
                 android:id="@+id/scroll_down_text"
                 style="@style/TextSubheading.ScrollDown"
                 android:text="@string/scroll_down"
-                android:onClick="scrollDown"/>
+                android:onClick="focusOnView"/>
 
 
             <!-- About Text -->

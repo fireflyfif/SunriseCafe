@@ -21,26 +21,27 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*
-     // Try to jump to the view but it's not working
-    public final void focusOnView(){
-        final ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
 
+    /*
+    // Jump to the bottom of the layout - Works too!
+    public void focusOnView(View view) {
+
+        ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
+        scrollViewText.fullScroll(ScrollView.FOCUS_DOWN);
+    }
+    */
+
+    // Jump to the Quick Order View
+    public final void focusOnView(View view) {
+        final ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
         final TextView quickOrder = (TextView) findViewById(R.id.quick_order);
+
         scrollViewText.post(new Runnable() {
             @Override
             public void run() {
                 scrollViewText.scrollTo(0, quickOrder.getTop());
             }
         });
-    }
-    */
-
-    // Jump to the bottom of the layout
-    public void scrollDown(View view) {
-
-        ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
-        scrollViewText.fullScroll(ScrollView.FOCUS_DOWN);
     }
 
 
