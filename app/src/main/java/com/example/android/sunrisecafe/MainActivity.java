@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import static com.example.android.sunrisecafe.R.id.scroll_view;
+
 public class MainActivity extends AppCompatActivity {
 
     int quantity = 0;
@@ -19,10 +21,25 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /*
+     // Try to jump to the view but it's not working
+    public final void focusOnView(){
+        final ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
+
+        final TextView quickOrder = (TextView) findViewById(R.id.quick_order);
+        scrollViewText.post(new Runnable() {
+            @Override
+            public void run() {
+                scrollViewText.scrollTo(0, quickOrder.getTop());
+            }
+        });
+    }
+    */
+
     // Jump to the bottom of the layout
     public void scrollDown(View view) {
 
-        ScrollView scrollViewText = (ScrollView) findViewById(R.id.scroll_view);
+        ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
         scrollViewText.fullScroll(ScrollView.FOCUS_DOWN);
     }
 
