@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import static com.example.android.sunrisecafe.R.id.scroll_view;
-
 public class MainActivity extends AppCompatActivity {
 
     int quantity = 0;
@@ -21,19 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-    /*
-    // Jump to the bottom of the layout - Works too!
-    public void focusOnView(View view) {
-
-        ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
-        scrollViewText.fullScroll(ScrollView.FOCUS_DOWN);
-    }
-    */
-
     // Jump to the Quick Order View
     public final void focusOnView(View view) {
-        final ScrollView scrollViewText = (ScrollView) findViewById(scroll_view);
+        final ScrollView scrollViewText = (ScrollView) findViewById(R.id.activity_main);
         final TextView quickOrder = (TextView) findViewById(R.id.quick_order);
 
         scrollViewText.post(new Runnable() {
@@ -43,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 
     // Increment Button
     public void increment(View view) {
@@ -63,10 +50,8 @@ public class MainActivity extends AppCompatActivity {
     public void submitOrder(View view) {
         int price = quantity * 4;
         String priceMessage = "Total: $" + price;
-        priceMessage = priceMessage;
         displayMessage(priceMessage);
     }
-
 
     /**
      * This method displays the given quantity value on the screen.
@@ -75,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
         quantityTextView.setText("" + number);
     }
+
     /**
      * This method displays the given text on the screen.
     */
@@ -85,14 +71,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void openBrowser(View view){
 
-        //Get url from tag
+        // Get url from tag
         String url = (String)view.getTag();
 
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.addCategory(Intent.CATEGORY_BROWSABLE);
 
-        //pass the url to intent data
+        // Pass the url to intent data
         intent.setData(Uri.parse(url));
 
         startActivity(intent);
